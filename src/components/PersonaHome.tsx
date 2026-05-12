@@ -18,7 +18,7 @@ const MENU_ITEMS = [
       '🔒 App Gestion des Congés — Laravel',
       '🛍 Pagne-Shop E-commerce — Laravel',
       '📦 Suivi des Stocks — Excel / VBA',
-      '→ Voir sur GitHub',
+        { label: '→ Voir sur GitHub', url: 'https://github.com/babyTic' },
     ],
   },
   {
@@ -57,7 +57,8 @@ const MENU_ITEMS = [
       'armand2dakoure@gmail.com',
       '+226 01 71 93 80',
       'Ouagadougou, Burkina Faso',
-      'GitHub → Voir mes projets',
+     { label: 'GitHub → Voir mes projets', url: 'https://github.com/babyTic' },
+
     ],
   },
 ]
